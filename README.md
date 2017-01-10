@@ -8,7 +8,7 @@
 
 ## Dev process
 - [ ] add boilerplate to each device locally
-- [ ] install dependencies (npm install- React, Babel, Jasmine, Jest, JSDOM,  webpack)
+- [ ] install dependencies (npm install- React, Babel, Jasmine, Jest,     JSDOM, webpack)
 - [ ] initialize webpack --watch
 - [ ] commit
 - [ ] ***remember to update watch after each component change***
