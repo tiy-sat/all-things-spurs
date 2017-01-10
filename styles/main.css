@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+.site_footer {
+  background: #cccccc;
+}
+.footer_content_container {
+
+}
+
+.menu {
+  list-style: none;
+  display: inline-block;
+  margin-left: 87px;
+}
+
+.copyright_text {
+  text-align: center;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.footer_menu_container {
+
+}

@@ -6,7 +6,7 @@ export default React.createClass({
   render () {
     return (
       <div>
-        <p>hefhksdfdjslkfj ds jsdfsdjkfkjdsjfsjk hjkv hdsjkhkjds jks</p>
+        
       </div>
     )
   }
