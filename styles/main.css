@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+.div_logo{
+  display: inline-block;
+  height: 200px;
+  width: 800px;
+
+}
+
+.logo {
+  width: 500px;
+
+}
+
+.div_signin{
+  display: inline-block;
+  width: 300px;
+}
+
+.signinform {
+  float: right;
+  display: inline-block;
+
+}
