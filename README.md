@@ -1,6 +1,10 @@
 # All Things Spurs
 
-## Chosen tech stack
+## Chosen tech stack  
+- [ ] Build in React
+- [ ] Jest for TDD
+- [ ] Webpack to bundle JS files
+- [ ] Creating elements in HTML and CSS
 
 ## Dev process
 
