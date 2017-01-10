@@ -3,24 +3,26 @@
 }
 
 .div_logo{
-  display: inline-block;
+  background-color: black;
+  display: block;
   height: 200px;
-  width: 800px;
-
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .logo {
-  width: 500px;
+  display: inline-block;
+  height: 200px;
+  margin-left: 35%;
+  margin-right: auto;
+  width: 400px;
 
 }
 
 .div_signin{
   display: inline-block;
+  margin-left: 100px;
   width: 300px;
-}
-
-.signinform {
-  float: right;
-  display: inline-block;
+  vertical-align: top;
 
 }
