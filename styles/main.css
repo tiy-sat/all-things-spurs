@@ -1,6 +1,26 @@
 *{
   box-sizing: border-box;
 }
+
+.site_footer {
+  background: #cccccc;
+}
+
+.menu {
+  list-style: none;
+  display: inline-block;
+  margin-left: 87px;
+}
+
+.copyright_text {
+  text-align: center;
+}
+
+.link {
+  text-decoration: none;
+  text-decoration-color: #008080;
+}
+
 input {
   text-align: center;
 }

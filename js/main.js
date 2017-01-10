@@ -63,6 +63,7 @@ So what all that efficiency boils down to is this. The Spurs make a couple more 
 
 Sure, the current stretch of schedule isn’t exactly the toughest, but back in November the Spurs were caught taking their opponents for granted and either losing or having to rally back late to beat lesser teams. That is no longer the case, as the Spurs have held a 20 point lead in seven of their last eight games and are leaving no doubt who the better team is. They look like a team that is having fun out there, and that is a very good sign as the second half of the schedule draws near.</p>
         </article>
+
       </div>
     )
   }
