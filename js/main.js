@@ -22,8 +22,6 @@ export default React.createClass({
   render () {
     return (
       <div>
-        <Header/>
-        <Engagementvids/>
         <Form/>
         <BlogPost blogTextInput={this.state.posts[0].text} titleInput={this.state.posts[0].title}/>
         <article>
