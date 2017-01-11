@@ -1,7 +1,8 @@
 // Grabbing react from node_modules
 import React from 'react'
 import Form from './form'
-
+import Header from './header'
+import Footer from './footer'
 export default React.createClass({
 
   render () {
