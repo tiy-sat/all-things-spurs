@@ -7,6 +7,7 @@ export default React.createClass({
       dateOfPost: '',
       imageUrlInput: '',
       blogTextInput: '',
+      content: ''
     };
   },
 
@@ -44,10 +45,6 @@ export default React.createClass({
         <div>
         <form className="blogPostForm" action="index.html" method="post">
           <h2 className="blogPostFormTitle">WRITE A NEW BLOG POST FOR US BELOW</h2>
-          <input className="userNameInput" type="text" name="userName" ref="blogTextInput" value={ this.state.userNameInput } onChange={ this.updateUserNameInput } placeholder="Enter User Name"/>
-          <input className="postDateInput" type="date" name="postDate" ref="postDate"value={ this.state.dateOfPost } onChange={ this.updateDateOfPost }/>
-          <input className="imageUrlInput" type="url" name="imageLink" ref="imageUrlInput" value={ this.state.imageUrlInput } onChange={ this.updateImageUrlInput } placeholder="Enter Image URL"/>
-          <textarea className="blogTextInput"type="text" name="" ref="blogPostText" value={ this.state.blogTextInput } onChange={ this.updateBlogTextInput } placeholder="Enter blog post here"></textarea>
           <input className="submitPost" type="submit" name="" value="Submit Post" onClick={ this.submitButtonClick }/>
         </form>
         <article className="newBlogPost" ref="newBlogPost">
