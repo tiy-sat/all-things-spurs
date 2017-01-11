@@ -56,6 +56,7 @@ export default React.createClass({
     return (
         <div>
         <form className="blogPostForm" action="index.html" method="post">
+          <h2 className="blogPostFormTitle">WRITE A NEW BLOG POST FOR US BELOW</h2>
           <input className="userNameInput" type="text" name="userName" value={ this.state.userNameInput } onChange={ this.updateUserNameInput } placeholder="Enter User Name"/>
           <input className="postDateInput" type="date" name="postDate" value={ this.state.dateOfPost } onChange={ this.updateDateOfPost }/>
           <input className="imageUrlInput" type="url" name="imageLink" value={ this.state.imageUrlInput } onChange={ this.updateImageUrlInput } placeholder="Enter Image URL"/>
