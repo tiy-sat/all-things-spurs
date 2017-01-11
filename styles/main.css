@@ -13,17 +13,37 @@
 .logo {
   display: inline-block;
   height: 200px;
-  margin-left: 35%;
+  margin-left: 18%;
   margin-right: auto;
-  width: 400px;
+  width: 350px;
 
 }
 
 .div_signin{
   display: inline-block;
-  margin-left: 100px;
+  float: right;
   width: 300px;
   vertical-align: top;
+}
+
+.signin{
+  font-size: 20px;
+}
+
+.signout{
+  font-size: 20px;
+}
+
+.spur1{
+  height: 175px;
+  margin-bottom: 10px;
+
+}
+
+.spur2{
+  float: right;
+  height: 175px;
+  margin-top: 10px;
 }
 
 .site_footer {
