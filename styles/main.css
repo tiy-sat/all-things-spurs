@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+}
+
+.div_logo{
+  background-color: black;
+  display: block;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  display: inline-block;
+  height: 200px;
+  margin-left: 23%;
+  margin-right: auto;
+  width: 350px;
+
+}
+
+.div_signin{
+  display: inline-block;
+  float: right;
+  width: 200px;
+  vertical-align: top;
+}
+
+.signin{
+  font-size: 20px;
+}
+
+.signout{
+  font-size: 20px;
+}
+
+.spur1{
+  height: 175px;
+  margin-bottom: 10px;
+
+}
+
+.spur2{
+  float: right;
+  height: 175px;
+  margin-top: 10px;
+}
+
+.video_section {
+  background: #E6E6E6;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.NBA_highlights_video {
+  height: 400px;
+  width: 100%;
+}
+
+.NBA_game_highlights {
+  margin-left: 27%;
+}
+
+.game_description {
+  font-family: Helvetica;
+  text-align: center;
+  color: #008080;
+}
+
+.site_footer {
+  background: #cccccc;
+}
+
+.menu {
+  list-style: none;
+  display: inline-block;
+  margin-left: 87px;
+}
+
+.copyright_text {
+  text-align: center;
+}
+
+.link {
+  text-decoration: none;
+  text-decoration-color: #008080;
+}
+
+input {
+  text-align: center;
+}
+.body {
+  background: #E6E6E6;
+  margin: 0px;
+}
+.blogPostForm {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+.blogPostFormTitle {
+  font-family: Helvetica;
+  text-align: center;
+}
+.userNameInput {
+  border: solid 1px grey;
+  border-radius: 4px;
+  font-size: 16px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 500px;
+}
+.postDateInput {
+  border: solid 1px grey;
+  border-radius: 4px;
+  font-size: 16px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 500px;
+}
+.postImage {
+  display: block;
+  margin: auto;
+  margin-right: auto;
+}
+.imageUrlInput {
+  border-radius: 4px;
+  border: solid 1px grey;
+  font-size: 16px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 500px;
+}
+.blogTextInput {
+  border: solid 1px grey;
+  border-radius: 4px;
+  font-size: 16px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  height: 200px;
+  width: 500px;
+}
+.submitPost {
+  background-color: lightgrey;
+  border: solid 1px grey;
+  border-radius: 4px;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  -webkit-appearance: none;
+}
