@@ -4,8 +4,20 @@ import Form from './form'
 import Footer from './footer'
 import Header from './header'
 import Engagementvids from './engagementvids'
+import BlogPost from './blogPost'
 
 export default React.createClass({
+  getInitialState(){
+    return {
+      posts:[{
+        title: "San Antonio vs. Charlotte, Final Score: Bench sparks Spurs to 102-85 victory over Hornets",
+        text: "The Spurs didn't have many shots fall for them in the first half against the Hornets, but a third quarter run led by the reserves, namely Davis Bertans, pushed the home team ahead, and the fourth quarter turned it into another laugher as San Antonio outscored Charlotte by 20 after intermission.The Spurs opened the game hitting their first three shots on the way to a 7-2 lead before the Hornets went on a little 10-4 run of their own to take a 12-11 lead midway through the first quarter. After a timeout, Patty Mills scored 8 points, and Davis Bertans (who got some early run with David Lee missing his first game of the season with a knee contusion) made his presence felt with a high-flying dunk over Roy Hibbert. The Hornets were led by 7 points from Kemba Walker, and the score was tied 24-24 at the end of the first quarter.The Spurs were a little sloppy to start the second quarter, but two threes from Kawhi Leonard and one from Danny Green helped the Spurs take a 35-33 lead five minutes into the quarter. There wasn’t much ball-movement from either team until the final few minutes of the half. Both teams traded baskets before Walker banked in a three on a potential four-point play. He missed the ensuing free-throw, and the Hornets ended a rather uninteresting half of basketball up 50-47. The Spurs hit 7 of 20 from three in the half but shot less than 39% overall.The Spurs continued to receive but miss open shots to start the third quarter, and fortunately for them so did Charlotte. A three from Pau Gasol and a couple of FT’s helped the Spurs tie things up at 54 a piece before Pop called a timeout. Both teams continued to shoot poorly until Davis Bertans completed a four-point play and hit another three on consecutive plays to get the Spurs up 68-60 with two minutes left. It was just the spark the Spurs needed, and they entered the final frame with a 73-64 lead.Bertans scored the Spurs’ first five points of the fourth quarter, Dewayne Dedmon got an alley-oop, and the lead was quickly stretched to 80-66. A Leonard block of a Hibbert dunk led to a three from Jonathon Simmons, and the route seemed to be on...until Bertans took a breather and the Hornets cut what was an 18-point lead down to 12. Bertans promptly returned and drew three more free throws. Another Davis three from a few feet behind the line got the lead back to 18 with 4:11 left, and then the route really was on. Bertans finished with a career high 21 points, and the Spurs won 102-85. Check back later for more on this one. The Spurs return to action on Tuesday to take on the Milwaukee Bucks. Be sure to check out Spurs Live before and after that game to see Matt Bonner’s studio debut!",
+        name: "User Name",
+        date: "01/11/2017",
+        image: "./styles/spurspic1.jpg"
+      }]
+    }
+  },
 
   render () {
     return (
@@ -13,21 +25,7 @@ export default React.createClass({
         <Header/>
         <Engagementvids/>
         <Form/>
-        <article>
-          <h1> San Antonio vs. Charlotte, Final Score: Bench sparks Spurs to 102-85 victory over Hornets </h1>
-          <img src="./styles/spurspic1.jpg" alt="spurs picture"/>
-          <p> The Spurs didn't have many shots fall for them in the first half against the Hornets, but a third quarter run led by the reserves, namely Davis Bertans, pushed the home team ahead, and the fourth quarter turned it into another laugher as San Antonio outscored Charlotte by 20 after intermission.
-
-          The Spurs opened the game hitting their first three shots on the way to a 7-2 lead before the Hornets went on a little 10-4 run of their own to take a 12-11 lead midway through the first quarter. After a timeout, Patty Mills scored 8 points, and Davis Bertans (who got some early run with David Lee missing his first game of the season with a knee contusion) made his presence felt with a high-flying dunk over Roy Hibbert. The Hornets were led by 7 points from Kemba Walker, and the score was tied 24-24 at the end of the first quarter.
-
-          The Spurs were a little sloppy to start the second quarter, but two threes from Kawhi Leonard and one from Danny Green helped the Spurs take a 35-33 lead five minutes into the quarter. There wasn’t much ball-movement from either team until the final few minutes of the half. Both teams traded baskets before Walker banked in a three on a potential four-point play. He missed the ensuing free-throw, and the Hornets ended a rather uninteresting half of basketball up 50-47. The Spurs hit 7 of 20 from three in the half but shot less than 39% overall.
-
-          The Spurs continued to receive but miss open shots to start the third quarter, and fortunately for them so did Charlotte. A three from Pau Gasol and a couple of FT’s helped the Spurs tie things up at 54 a piece before Pop called a timeout. Both teams continued to shoot poorly until Davis Bertans completed a four-point play and hit another three on consecutive plays to get the Spurs up 68-60 with two minutes left. It was just the spark the Spurs needed, and they entered the final frame with a 73-64 lead.
-
-          Bertans scored the Spurs’ first five points of the fourth quarter, Dewayne Dedmon got an alley-oop, and the lead was quickly stretched to 80-66. A Leonard block of a Hibbert dunk led to a three from Jonathon Simmons, and the route seemed to be on...until Bertans took a breather and the Hornets cut what was an 18-point lead down to 12. Bertans promptly returned and drew three more free throws. Another Davis three from a few feet behind the line got the lead back to 18 with 4:11 left, and then the route really was on. Bertans finished with a career high 21 points, and the Spurs won 102-85.
-
-          Check back later for more on this one. The Spurs return to action on Tuesday to take on the Milwaukee Bucks. Be sure to check out Spurs Live before and after that game to see Matt Bonner’s studio debut!</p>
-        </article>
+        <BlogPost blogTextInput={this.state.posts[0].text} titleInput={this.state.posts[0].title}/>
         <article>
           <h1> Why the Spurs are so good this season </h1>
           <img src="./styles/tonyparker.jpeg" alt="tony parker"/>
