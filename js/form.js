@@ -36,11 +36,11 @@ export default React.createClass({
     e.preventDefault();
 
     this.refs.newBlogPost.insertAdjacentHTML("afterbegin",
-    `  <div className="newBlogPost" ref="newBlogPost">
-        <img src=${this.state.imageUrlInput}></img>
-        <h2 className="userName">${this.state.userNameInput}</h2>
-        <h3 className="postDate">${this.state.dateOfPost}</h3>
-        <p className="blogText">${this.state.blogTextInput}</p>
+    `  <div class="newBlogPost" ref="newBlogPost">
+        <img class="postImage" src=${this.state.imageUrlInput}></img>
+        <h2 class="userName">${this.state.userNameInput}</h2>
+        <h3 class="postDate">${this.state.dateOfPost}</h3>
+        <p class="blogText">${this.state.blogTextInput}</p>
       </div>`)
   },
 
