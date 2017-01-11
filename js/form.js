@@ -2,6 +2,18 @@ import React from 'react';
 
 
 export default React.createClass({
+  getInitialState: function() {
+    return {
+      userNameInput: '',
+      dateOfPost: '',
+      imageUrlInput: '',
+      blogTextInput: '',
+    };
+  },
+
+  submitButtonClick (e){
+    e.preventDefault();
+  },
 
   render () {
     return (
@@ -12,6 +24,7 @@ export default React.createClass({
           <textarea className="blogTextInput"type="text" name="" value="" placeholder="Enter blog post here"></textarea>
           <input className="submitPost" type="submit" name="" value="Submit Post"/>
         </form>
-    )
+          <input className="submitPost" type="submit" name="" value="Submit Post" onClick={ this.submitButtonClick }/>
+          </form>
   }
 })
