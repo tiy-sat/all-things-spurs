@@ -1,17 +1,12 @@
 // Grabbing react from node_modules
 import React from 'react'
 import Form from './form'
-import Footer from './footer'
-import Header from './header'
-import Engagementvids from './engagementvids'
 
 export default React.createClass({
 
   render () {
     return (
       <div>
-        <Header/>
-        <Engagementvids/>
         <Form/>
         <article>
           <h1> San Antonio vs. Charlotte, Final Score: Bench sparks Spurs to 102-85 victory over Hornets </h1>

@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+.btn-group {
+  background-color: rgb(234,231,23);
+}
+
 .div_logo{
   background-color: black;
   display: block;
@@ -13,7 +17,6 @@
 .logo {
   display: inline-block;
   height: 200px;
-  margin-left: 23%;
   margin-right: auto;
   width: 350px;
 
@@ -22,7 +25,6 @@
 .div_signin{
   display: inline-block;
   float: right;
-  width: 200px;
   vertical-align: top;
 }
 
@@ -37,7 +39,6 @@
 .spur1{
   height: 175px;
   margin-bottom: 10px;
-
 }
 
 .spur2{
@@ -86,7 +87,7 @@
   text-decoration-color: #008080;
 }
 
-input {
+.input {
   text-align: center;
 }
 .body {
@@ -99,10 +100,12 @@ input {
   margin-right: auto;
   margin-top: 50px;
 }
+
 .blogPostFormTitle {
   font-family: Helvetica;
   text-align: center;
 }
+
 .userNameInput {
   border: solid 1px grey;
   border-radius: 4px;
@@ -123,11 +126,13 @@ input {
   margin-bottom: 20px;
   width: 500px;
 }
+
 .postImage {
   display: block;
   margin: auto;
   margin-right: auto;
 }
+
 .imageUrlInput {
   border-radius: 4px;
   border: solid 1px grey;
