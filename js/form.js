@@ -43,10 +43,13 @@ export default React.createClass({
   render () {
     return (
         <div>
-        <form className="blogPostForm" action="index.html" method="post">
-          <h2 className="blogPostFormTitle">WRITE A NEW BLOG POST FOR US BELOW</h2>
-          <input className="submitPost" type="submit" name="" value="Submit Post" onClick={ this.submitButtonClick }/>
-        </form>
+          <form className="blogPostForm" action="index.html" method="post">
+            <input className="userNameInput" type="text" name="userName" value={ this.state.userNameInput } onChange={ this.updateUserNameInput } placeholder="Enter User Name"/>
+            <input className="postDateInput" type="date" name="postDate" value={ this.state.dateOfPost } onChange={ this.updateDateOfPost }/>
+            <input className="imageUrlInput" type="url" name="imageLink" value={ this.state.imageUrlInput } onChange={ this.updateImageUrlInput } placeholder="Enter Image URL"/>
+            <textarea className="blogTextInput"type="text" name="" value={ this.state.blogTextInput } onChange={ this.updateBlogTextInput } placeholder="Enter blog post here"></textarea>
+            <input className="submitPost" type="submit" name="" value="Submit Post" onClick={ this.submitButtonClick }/>
+          </form>
         <article className="newBlogPost" ref="newBlogPost">
         </article>
       </div>
