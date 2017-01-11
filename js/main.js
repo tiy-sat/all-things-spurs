@@ -1,8 +1,9 @@
 // Grabbing react from node_modules
 import React from 'react'
-import Form from './form'
+
 import Footer from './footer'
 import Header from './header'
+import Form from './form'
 import Engagementvids from './engagementvids'
 import BlogPost from './blogPost'
 
@@ -22,6 +23,8 @@ export default React.createClass({
   render () {
     return (
       <div>
+        <Header/>
+        <Engagementvids/>
         <Form/>
         <BlogPost blogTextInput={this.state.posts[0].text} titleInput={this.state.posts[0].title}/>
         <article>
