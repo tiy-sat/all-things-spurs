@@ -30,5 +30,13 @@
     "jsdom": "^9.9.1",
     "webpack": "^1.14.0"
   },
-  "description": ""
+  "description": "## Chosen tech stack   - [ ] Build in React - [ ] Jest for TDD - [ ] Webpack to bundle JS files - [ ] Creating elements in HTML and CSS",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TCollins81/all-things-spurs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TCollins81/all-things-spurs/issues"
+  },
+  "homepage": "https://github.com/TCollins81/all-things-spurs#readme"
 }
