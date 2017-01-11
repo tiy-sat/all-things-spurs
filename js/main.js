@@ -8,7 +8,7 @@ export default React.createClass({
   render () {
     return (
       <div>
-      <Form/>
+        <Form/>
         <article>
           <h1> San Antonio vs. Charlotte, Final Score: Bench sparks Spurs to 102-85 victory over Hornets </h1>
           <img src="./styles/spurspic1.jpg" alt="spurs picture"/>
