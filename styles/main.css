@@ -2,7 +2,6 @@
   box-sizing: border-box;
 }
 
-<<<<<<< HEAD
 .btn-group {
   background-color: rgb(234,231,23);
 }
@@ -40,7 +39,6 @@
 .spur1{
   height: 175px;
   margin-bottom: 10px;
-
 }
 
 .spur2{
@@ -93,10 +91,7 @@
   text-align: center;
 }
 .body {
-<<<<<<< HEAD
-=======
   background: #E6E6E6;
->>>>>>> b6f5770935e7ce37e29a9e0afd10ee7d50653f2d
   margin: 0px;
 }
 .blogPostForm {
