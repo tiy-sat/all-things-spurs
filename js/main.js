@@ -3,6 +3,7 @@ import React from 'react'
 import Form from './form'
 import Footer from './footer'
 import Header from './header'
+import Engagementvids from './engagementvids'
 
 export default React.createClass({
 
@@ -10,6 +11,7 @@ export default React.createClass({
     return (
       <div>
         <Header/>
+        <Engagementvids/>
         <Form/>
         <article>
           <h1> San Antonio vs. Charlotte, Final Score: Bench sparks Spurs to 102-85 victory over Hornets </h1>

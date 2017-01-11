@@ -61,6 +61,7 @@
 }
 
 .game_description {
+  font-family: Helvetica;
   text-align: center;
   color: #008080;
 }
@@ -88,6 +89,7 @@ input {
   text-align: center;
 }
 .body {
+  background: #E6E6E6;
   margin: 0px;
 }
 .blogPostForm {
@@ -95,6 +97,10 @@ input {
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
+}
+.blogPostFormTitle {
+  font-family: Helvetica;
+  text-align: center;
 }
 .userNameInput {
   border: solid 1px grey;
