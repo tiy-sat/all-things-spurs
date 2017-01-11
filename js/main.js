@@ -33,42 +33,6 @@ export default React.createClass({
             <img src="./styles/tonyparker.jpeg" alt="tony parker"/>
             <p> This may seem ironic, considering the Spurs’ tough loss at Atlanta, but I feel more optimistic about them than I have all season. About ten different things had to happen for them to lose to the Hawks on New Year’s Day. They ran into a superhuman performance by Paul Millsap, and a career night from Tim Hardaway Jr. Kawhi Leonard was a shell of himself, still weak from a bout with a stomach bug. They got virtually nothing from Jonathon Simmons, Kyle Anderson and Dewayne Dedmon. An Atlanta squad who usually shoots threes very poorly (33.1 percent) just happened to make 14-of-28 of them against the Spurs. These things happen, and hopefully you don’t run into them in a playoff game.
 
-<<<<<<< Updated upstream
-          What is encouraging is not only the Spurs’ glossy 28-7 record but more so that the eye test and the numbers are starting to align with the standings, when that wasn’t the case earlier in the season, when the team was winning some coin-flip games more because of Leonard and the bench than anything else. LaMarcus Aldridge, Pau Gasol, Tony Parker, Danny Green and Manu Ginobili are all playing their best ball of the season these past two weeks and gradually the team’s scoring differential is growing.
-
-          So, the question before us: Why are the 2016-17 Spurs so good?
-
-          The easy answer is to say offense, because it just so happens that the Spurs’ Offensive Rating of 109.9 (per NBA.com’s Stats Index) is the best in franchise history. But offensive efficiency is up across the league, to the point where the Spurs only rank fifth in the NBA. That 109.9 would’ve tied for second last year, and led the league in each of the past two seasons before that. Conversely, their Defensive Rating of 101.6 looks mediocre, it’d have ranked eighth last year and 12th two seasons ago, but this season it’s fourth.
-
-          However, even in a league that’s growing ever more homogenized, with everyone firing away from outside and learning to eschew long twos, the Spurs are still finding a way to stand out. What specifically are they doing well?
-
-          For starters, they’re shooting threes with historic accuracy, nailing 40.7 percent of their attempts. Last season’s Golden State Warriors canned 41.6 percent, Alvin Gentry’s Phoenix Suns of 2009-10 hit 41.2, and our all-time champions, believe it or not, had a Curry on the roster, only it was Stephen’s father Dell on the 1996-97 Charlotte Hornets, who sank an incredible 42.8 percent of their threes as a team.
-
-          This year’s Spurs are on pace for around 736 makes. We’d all like for them to take more, but they’re still making nine per game, which is on pace for best in franchise history. They’ve never made more than 8.5 per game before, and the last time they did that, they won a championship (and upped it to 8.8 per game on 40.9 percent in the playoffs).
-
-          Incidentally, this edition of the Spurs is the first since 2000-01 that has the potential to boast as many as six dudes who finish the season with at least 20 dunks in Leonard, Aldridge, Gasol, Simmons, Dedmon and David Lee. That may not sound overly impressive, but the Spurs haven’t exactly been known for their aerial acrobatics during the Gregg Popovich Era. For example, the 2008-09 squad for example might as well have worn short shorts and mandated that their games only be televised in black-and-white. They had 75 dunks —as a team— for the whole season. Malik Hairston finished third on the team... with 8. They had a journeyman center named Pops Mensah-Bonsu who threw down like two jams in three games and he was promptly waived (...for showboating?). I hated the 2008-09 season.
-
-          (By the way, I dare anyone to come up with all six Spurs on the 20 dunk club from that ‘01 team without looking it up.)
-
-          It’s probably not a coincidence then that the Spurs are getting to the free-throw line more than any season since 2010-11. While 22.6 attempts per game doesn’t sound like a lot —because it’s not, still just 21st in the league— that’s a quantum leap for a franchise typically at or near the bottom of the rankings in this category. What’s uncanny is how accurate they’ve been at the line, far and away atop the NBA at 82.3 percent. For a reference point, the highest figure I found since 1996-97 was the 2012-13 Oklahoma City Thunder at 82.8 percent.
-
-          What that accuracy means is that while they’re only 21st in attempts, they’re actually 14th in makes, knocking down 18.6 freebies per game. The last time a Spurs team made that many at the charity stripe, you had to go back to the 2004-05 season, with Tim Duncan close to his prime and Ginobili and Parker just entering theirs.
-
-          Their ability to make threes and finish at the rim has the Spurs tied-for-second in overall field goal percentage, despite their love affair for mid-range twos (though they have solid shooters taking the majority of those, too). The team ethos for moving the ball and looking for great shots instead of settling for good ones has enabled the Spurs to be in the top-five in field goal percentage for years. Their last season outside the top-five was 2009-2010 (where they ranked sixth) and you have to go back to 2007-08 for their last finish outside the top-10.
-
-          Add it all up and the Spurs’ Effective Field Goal Percentage (53.1, fourth in the league) is as good as it’s ever been, behind the championship “Beautiful Game” 2013-14 edition, that finished at 53.8 percent. They’re right there, even with Ginobili, Parker and Gasol winding down, and much of the bench consisting of newcomers or unproven youngsters. That level of chemistry has been impressive.
-
-          Defensively the Spurs haven’t been dominant in any area but one, but they aren’t bad at anything either. They control pace and keep the number of possessions down. They take care of their boards at an acceptable level. They’re in the top-10 in both steals (eighth, with 8.1 per game) and blocks (fourth, with 5.7) and they do those things without fouling much, which is pretty counterintuitive.
-
-          Where they’ve been dominant, is in the area that’s most important of all, and that’s three-point defense. By hook or crook, they’re third, at 34.1 percent. Teams try a fair amount against them, but not many have had Hawks-like success.
-
-          So what all that efficiency boils down to is this. The Spurs make a couple more buckets per game than their opponents, a .5 more threes per night, and about two-and-a-half more free-throws. Those fractions may seem marginal, just a point here and a point there, but those fractions add up and often make the difference between a win and a loss or a close win and a comfortable one.</p>
-        </article>
-        <article>
-          <h1> Power Rankings, Week 12: Spurs regaining some street cred </h1>
-          <img src="./styles/coachpop.jpg" alt="coach pop"/>
-          <p> Remember a few weeks ago when everyone was worried about Kawhi Leonard being frozen out on the defensive end and lethargic offense from basically everyone except Leonard and the bench? Yeah, times have changed. The starters are beginning to look like a cohesive unit that’s been together for more than a couple of months, and the defense has gone from a decent-but-not-championship-caliber unit at the beginning of the season back to the terror the Spurs have always prided themselves on being.
-=======
               What is encouraging is not only the Spurs’ glossy 28-7 record but more so that the eye test and the numbers are starting to align with the standings, when that wasn’t the case earlier in the season, when the team was winning some coin-flip games more because of Leonard and the bench than anything else. LaMarcus Aldridge, Pau Gasol, Tony Parker, Danny Green and Manu Ginobili are all playing their best ball of the season these past two weeks and gradually the team’s scoring differential is growing.
 
               So, the question before us: Why are the 2016-17 Spurs so good?
@@ -103,7 +67,6 @@ export default React.createClass({
             <h1> Power Rankings, Week 12: Spurs regaining some street cred </h1>
             <img src="./styles/coachpop.jpg" alt="coach pop"/>
             <p> Remember a few weeks ago when everyone was worried about Kawhi Leonard being frozen out on the defensive end and lethargic offense from basically everyone except Leonard and the bench? Yeah, times have changed. The starters are beginning to look like a cohesive unit that’s been together for more than a couple of months, and the defense has gone from a decent-but-not-championship-caliber unit at the beginning of the season back to the terror the Spurs have always prided themselves on being.
->>>>>>> Stashed changes
 
             Sure, the current stretch of schedule isn’t exactly the toughest, but back in November the Spurs were caught taking their opponents for granted and either losing or having to rally back late to beat lesser teams. That is no longer the case, as the Spurs have held a 20 point lead in seven of their last eight games and are leaving no doubt who the better team is. They look like a team that is having fun out there, and that is a very good sign as the second half of the schedule draws near.</p>
           </article>
