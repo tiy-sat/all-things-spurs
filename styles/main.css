@@ -30,10 +30,12 @@
 
 .signin{
   font-size: 20px;
+  color: #008080;
 }
 
 .signout{
   font-size: 20px;
+  color: #008080;
 }
 
 .spur1{
@@ -84,7 +86,7 @@
 
 .link {
   text-decoration: none;
-  text-decoration-color: #008080;
+  color: #008080;
 }
 
 .input {
@@ -101,9 +103,14 @@
   margin-top: 50px;
 }
 
+.title {
+  color: #008080;
+}
+
 .blogPostFormTitle {
   font-family: Helvetica;
   text-align: center;
+  color: #008080;
 }
 
 .userNameInput {
@@ -125,6 +132,7 @@
   margin-right: auto;
   margin-bottom: 20px;
   width: 500px;
+  color: #008080;
 }
 
 .postImage {
@@ -132,6 +140,11 @@
   margin: auto;
   margin-right: auto;
 }
+
+.postTitle {
+  color: #008080;
+}
+
 
 .imageUrlInput {
   border-radius: 4px;

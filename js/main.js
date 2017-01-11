@@ -28,7 +28,7 @@ export default React.createClass({
         <Form/>
         <BlogPost blogTextInput={this.state.posts[0].text} titleInput={this.state.posts[0].title}/>
         <article>
-          <h1> Why the Spurs are so good this season </h1>
+          <h1 className="title"> Why the Spurs are so good this season </h1>
           <img src="./styles/tonyparker.jpeg" alt="tony parker"/>
           <p> This may seem ironic, considering the Spurs’ tough loss at Atlanta, but I feel more optimistic about them than I have all season. About ten different things had to happen for them to lose to the Hawks on New Year’s Day. They ran into a superhuman performance by Paul Millsap, and a career night from Tim Hardaway Jr. Kawhi Leonard was a shell of himself, still weak from a bout with a stomach bug. They got virtually nothing from Jonathon Simmons, Kyle Anderson and Dewayne Dedmon. An Atlanta squad who usually shoots threes very poorly (33.1 percent) just happened to make 14-of-28 of them against the Spurs. These things happen, and hopefully you don’t run into them in a playoff game.
 
@@ -63,7 +63,7 @@ export default React.createClass({
             So what all that efficiency boils down to is this. The Spurs make a couple more buckets per game than their opponents, a .5 more threes per night, and about two-and-a-half more free-throws. Those fractions may seem marginal, just a point here and a point there, but those fractions add up and often make the difference between a win and a loss or a close win and a comfortable one.</p>
         </article>
         <article>
-          <h1> Power Rankings, Week 12: Spurs regaining some street cred </h1>
+          <h1 className="title"> Power Rankings, Week 12: Spurs regaining some street cred </h1>
           <img src="./styles/coachpop.jpg" alt="coach pop"/>
           <p> Remember a few weeks ago when everyone was worried about Kawhi Leonard being frozen out on the defensive end and lethargic offense from basically everyone except Leonard and the bench? Yeah, times have changed. The starters are beginning to look like a cohesive unit that’s been together for more than a couple of months, and the defense has gone from a decent-but-not-championship-caliber unit at the beginning of the season back to the terror the Spurs have always prided themselves on being.
 
