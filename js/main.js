@@ -1,11 +1,13 @@
 // Grabbing react from node_modules
 import React from 'react'
+import Form from './form'
 
 export default React.createClass({
 
   render () {
     return (
       <div>
+        <Form/>
         <article>
           <h1> San Antonio vs. Charlotte, Final Score: Bench sparks Spurs to 102-85 victory over Hornets </h1>
           <img src="./styles/spurspic1.jpg" alt="spurs picture"/>
@@ -63,6 +65,7 @@ export default React.createClass({
 
           Sure, the current stretch of schedule isn’t exactly the toughest, but back in November the Spurs were caught taking their opponents for granted and either losing or having to rally back late to beat lesser teams. That is no longer the case, as the Spurs have held a 20 point lead in seven of their last eight games and are leaving no doubt who the better team is. They look like a team that is having fun out there, and that is a very good sign as the second half of the schedule draws near.</p>
         </article>
+        <Footer/>
       </div>
     )
   }
