@@ -40,7 +40,6 @@ export default React.createClass({
         <Header/>
         <Engagementvids/>
         <Form/>
-        <BlogPost blogTextInput={this.state.posts[0].text} titleInput={this.state.posts[0].title}/>
         <BlogPost blogTextInput={this.state.posts[0].text} titleInput={this.state.posts[0].title} userNameInput={this.state.posts[0].name} dateOfPost={this.state.posts[0].date} imageUrlInput={this.state.posts[0].image}/>
         <BlogPost blogTextInput={this.state.posts[1].text} titleInput={this.state.posts[1].title} userNameInput={this.state.posts[1].name} dateOfPost={this.state.posts[1].date} imageUrlInput={this.state.posts[1].image}/>
         <BlogPost blogTextInput={this.state.posts[2].text} titleInput={this.state.posts[2].title} userNameInput={this.state.posts[2].name} dateOfPost={this.state.posts[2].date} imageUrlInput={this.state.posts[2].image}/>
