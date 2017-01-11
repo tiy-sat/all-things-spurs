@@ -46,6 +46,25 @@
   margin-top: 10px;
 }
 
+.video_section {
+  background: #E6E6E6;
+  font-size: 12px;
+}
+
+.NBA_highlights_video {
+  height: 400px;
+  width: 100%;
+}
+
+.NBA_game_highlights {
+  margin-left: 27%;
+}
+
+.game_description {
+  text-align: center;
+  color: #008080;
+}
+
 .site_footer {
   background: #cccccc;
 }
