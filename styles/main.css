@@ -123,6 +123,11 @@ input {
   margin-bottom: 20px;
   width: 500px;
 }
+.postImage {
+  display: block;
+  margin: auto;
+  margin-right: auto;
+}
 .imageUrlInput {
   border-radius: 4px;
   border: solid 1px grey;
