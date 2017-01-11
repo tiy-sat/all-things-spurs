@@ -6,7 +6,6 @@ import { render } from 'react-dom'
 // Main is OUR js file that is located in the same folder as this file.
 //  Please remember to load our custom code AFTER React and its dependencies
 import Main from './main'
-
 // Render is a method we imported up on line 5
 //  It takes two argument:
 //    1) What element to add to the page
