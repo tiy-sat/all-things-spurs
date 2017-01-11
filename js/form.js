@@ -11,7 +11,7 @@ export default React.createClass({
           <input className="imageUrlInput" type="url" name="imageLink" value="" placeholder="Enter Image URL"/>
           <textarea className="blogTextInput"type="text" name="" value="" placeholder="Enter blog post here"></textarea>
           <input className="submitPost" type="submit" name="" value="Submit Post"/>
-          </form>
-      )
+        </form>
+    )
   }
 })
