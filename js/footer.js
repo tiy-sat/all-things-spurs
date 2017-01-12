@@ -38,10 +38,10 @@ export default React.createClass({
         </div>
         <div className="socialMedia">
           <ul className="socialMediaFooter">
-            <li className="socialMediaList"><a href="https://www.twitter.com/spurs" className="twitter"><i className="fa fa-twitter" aria-hidden="true" className="icons"></i></a></li>
-            <li className="socialMediaList"><a href="https://www.facebook.com/spurs" className="facebook"><i className="fa fa-facebook" aria-hidden="true" className="icons"></i></a></li>
-            <li className="socialMediaList"><a href="https://www.instagram.com/spurs" className="instagram"><i className="fa fa-instagram" aria-hidden="true" className="icons"></i></a></li>
-            <li className="socialMediaList"><a href="https://plus.google.com/+spurs" className="google"><i className="fa fa-google-plus" aria-hidden="true" className="icons"></i></a></li>
+            <li className="socialMediaList"><a href="https://www.twitter.com/spurs" className="twitter"><i className="fa fa-twitter icons" aria-hidden="true"></i></a></li>
+            <li className="socialMediaList"><a href="https://www.facebook.com/spurs" className="facebook"><i className="fa fa-facebook icons" aria-hidden="true"></i></a></li>
+            <li className="socialMediaList"><a href="https://www.instagram.com/spurs" className="instagram"><i className="fa fa-instagram icons" aria-hidden="true"></i></a></li>
+            <li className="socialMediaList"><a href="https://plus.google.com/+spurs" className="google"><i className="fa fa-google-plus icons" aria-hidden="true"></i></a></li>
           </ul>
         </div>
         <div>
