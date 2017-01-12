@@ -1,22 +1,8 @@
 import React from 'react';
-import Modal from './modal'
 
 export default React.createClass({
-  getInitialState (){
-    return{
-      isModalOpen: false
-    }
-  },
-  removeHide(e){
-    this.refs.unhide.removeClass("hide")
-  },
-  updatePostVisible (){
-    console.log("click");
-    this.setState({isModalOpen: true})
-  },
-  getModalOpenState(){
-    return this.state.isModalOpen
-  },
+
+  
   render (){
     return (
       <article className="blog">
