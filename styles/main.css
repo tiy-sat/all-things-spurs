@@ -2,6 +2,42 @@
   box-sizing: border-box;
 }
 
+ul li {
+  display: inline;
+}
+
+i {
+  margin-right: 50px;
+}
+/*.fa-twitter {
+  margin-right: 10px;
+}
+
+.fa-facebook-f:before {
+  margin-right: 10px;
+}*/
+
+.socialMediaFooter {
+  list-style: none;
+  text-align: center;
+}
+
+.google {
+  color: rgb(221, 75, 57);
+}
+
+.instagram {
+  color: rgb(192, 62, 120);
+}
+
+.facebook {
+  color: rgb(59, 89, 152);
+}
+
+.twitter {
+  color: rgb(29, 161, 242);
+}
+
 .dropdown-menu {
   display: none;
 }
