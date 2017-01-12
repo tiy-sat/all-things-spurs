@@ -1,4 +1,5 @@
 import React from 'react';
+import Editable from 'react-wysiwyg-editor'
 
 export default React.createClass({
   getInitialState: function() {
@@ -49,15 +50,49 @@ export default React.createClass({
   render () {
     return (
         <div>
-          <form className="blogPostForm" action="index.html" method="post">
-            <input className="userNameInput" type="text" name="userName" value={ this.state.userNameInput } onChange={ this.updateUserNameInput } placeholder="Enter User Name"/>
-            <input className="postDateInput" type="date" name="postDate" value={ this.state.dateOfPost } onChange={ this.updateDateOfPost }/>
-            <input className="imageUrlInput" type="url" name="imageLink" value={ this.state.imageUrlInput } onChange={ this.updateImageUrlInput } placeholder="Enter Image URL"/>
-            <input className="titleInput" type="text" name="title" value={ this.state.titleInput } onChange={ this.updateTitleInput } placeholder="Enter Post Title Here"/>
-            <textarea className="blogTextInput"type="text" name="" value={ this.state.blogTextInput } onChange={ this.updateBlogTextInput } placeholder="Enter blog post here"></textarea>
-            <input className="submitPost" type="submit" name="" value="Submit Post" onClick={ this.submitButtonClick }/>
+          <form action="index.html"
+                className="blogPostForm"
+                method="post">
+            <input className="userNameInput"
+                   name="userName"
+                   onChange={ this.updateUserNameInput }
+                   placeholder="Enter User Name"
+                   type="text"
+                   value={ this.state.userNameInput }/>
+            <input className="postDateInput"
+                   name="postDate"
+                   onChange={ this.updateDateOfPost }
+                   type="date"
+                   value={ this.state.dateOfPost }/>
+            <input className="imageUrlInput"
+                   name="imageLink"
+                   onChange={ this.updateImageUrlInput }
+                   placeholder="Enter Image URL"
+                   type="url"
+                   value={ this.state.imageUrlInput }/>
+            <input className="titleInput"
+                   name="title"
+                   onChange={ this.updateTitleInput }
+                   placeholder="Enter Post Title Here"
+                   value={ this.state.titleInput }/>
+            <Editable className="wysiwygButtons"
+                      content={ this.state.content }
+                      onChange={ this.updateContentInput }/>
+            <textarea className="blogTextInput"
+                      type="text"
+                      name=""
+                      value={ this.state.blogTextInput }
+                      onChange={ this.updateBlogTextInput }
+                      placeholder="Enter blog post here">
+            </textarea>
+            <input className="submitPost"
+                   name=""
+                   onClick={ this.submitButtonClick }
+                   type="submit"
+                   value="Submit Post"/>
           </form>
-        <article className="newBlogPost" ref="newBlogPost">
+        <article className="newBlogPost"
+                 ref="newBlogPost">
         </article>
       </div>
     )
