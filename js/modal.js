@@ -3,13 +3,11 @@ import React from 'react';
 export default React.createClass({
 
   render() {
-    console.log(this.props.isModalOpen(),"here");
     return (
       <div className={this.props.isModalOpen() ? "visible" : "hidden"}>
         <div>
-          <h1>Modal title</h1>
-          <p>hello</p>
-          <p><button onClick={() => this.closeModal()}>Close</button></p>
+          <h2>{this.props.postData.title}</h2>
+      <p><button onClick={() => this.props.closeModal()}>Close</button></p>
         </div>
       </div>
     )
