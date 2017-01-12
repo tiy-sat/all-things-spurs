@@ -1,9 +1,6 @@
 import React from 'react';
-
 export default React.createClass({
-  removeHide(e){
-    this.refs.unhide.removeClass("hide")
-  },
+
 
   render (){
     return (
