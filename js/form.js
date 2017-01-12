@@ -25,6 +25,9 @@ export default React.createClass({
       imageUrlInput: e.target.value
     });
   },
+  handleContentChange: function(e) {
+    this.setState({content: e.target.value});
+  },
   updateBlogTextInput (e){
     this.setState({
       blogTextInput: e.target.value
@@ -37,12 +40,7 @@ export default React.createClass({
   },
 
   submitButtonClick (e){
-    e.preventDefault();
-    let blogText = this.refs.blogTextInput.value
-    let postDate = this.refs.postDate.value
-    let imageLink = this.refs.imageUrlInput.value
-    let blogPostText = this.refs.blogPostText.value
-    let blogPostTitle = this.refs.titleInput.value
+    e.preventDefault()
   },
 
   render () {

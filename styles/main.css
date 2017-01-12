@@ -283,3 +283,10 @@ i {
   height: 80px;
   overflow: hidden;
 }
+.visible {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
