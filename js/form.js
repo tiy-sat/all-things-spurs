@@ -1,5 +1,4 @@
 import React from 'react';
-import Editable from 'react-wysiwyg-editor'
 
 export default React.createClass({
   getInitialState: function() {
@@ -7,8 +6,7 @@ export default React.createClass({
       userNameInput: '',
       dateOfPost: '',
       imageUrlInput: '',
-      blogTextInput: '',
-      content: ''
+      blogTextInput: ''
     };
   },
 
@@ -75,9 +73,6 @@ export default React.createClass({
                    onChange={ this.updateTitleInput }
                    placeholder="Enter Post Title Here"
                    value={ this.state.titleInput }/>
-            <Editable className="wysiwygButtons"
-                      content={ this.state.content }
-                      onChange={ this.updateContentInput }/>
             <textarea className="blogTextInput"
                       type="text"
                       name=""
