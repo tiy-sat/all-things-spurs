@@ -2,6 +2,17 @@
   box-sizing: border-box;
 }
 
+.btn.btn-default.btn-xs.dropdown-toggle {
+  width: 25px;
+  height: 20px;
+}
+
+.btn.btn-default {
+  width: 25px;
+  height: 20px;
+}
+
+
 ul li {
   display: inline;
 }
