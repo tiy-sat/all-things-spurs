@@ -41,11 +41,14 @@ export default React.createClass({
         <Engagementvids/>
         <Form/>
         <BlogPost
-          blogTextInput={this.state.posts[0].text} titleInput={this.state.posts[0].title} userNameInput={this.state.posts[0].name} dateOfPost={this.state.posts[0].date} imageUrlInput={this.state.posts[0].image}/>
+          blogTextInput={this.state.posts[0].text} titleInput={this.state.posts[0].title} userNameInput={this.state.posts[0].name} dateOfPost={this.state.posts[0].date} imageUrlInput={this.state.posts[0].image}
+          postData={this.state.posts[0]}/>
         <BlogPost
-          blogTextInput={this.state.posts[1].text} titleInput={this.state.posts[1].title} userNameInput={this.state.posts[1].name} dateOfPost={this.state.posts[1].date} imageUrlInput={this.state.posts[1].image}/>
+          blogTextInput={this.state.posts[1].text} titleInput={this.state.posts[1].title} userNameInput={this.state.posts[1].name} dateOfPost={this.state.posts[1].date} imageUrlInput={this.state.posts[1].image}
+          postData={this.state.posts[1]}/>
         <BlogPost
-          blogTextInput={this.state.posts[2].text} titleInput={this.state.posts[2].title} userNameInput={this.state.posts[2].name} dateOfPost={this.state.posts[2].date} imageUrlInput={this.state.posts[2].image}/>
+          blogTextInput={this.state.posts[2].text} titleInput={this.state.posts[2].title} userNameInput={this.state.posts[2].name} dateOfPost={this.state.posts[2].date} imageUrlInput={this.state.posts[2].image}
+          postData={this.state.posts[2]}/>
         <Footer/>
       </div>
     )
