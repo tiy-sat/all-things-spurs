@@ -31,6 +31,11 @@ export default React.createClass({
       blogTextInput: e.target.value
     });
   },
+  updateTitleInput (e){
+    this.setState({
+      blogTextInput: e.target.value
+    });
+  },
 
   submitButtonClick (e){
     e.preventDefault();
@@ -38,6 +43,7 @@ export default React.createClass({
     let postDate = this.refs.postDate.value
     let imageLink = this.refs.imageUrlInput.value
     let blogPostText = this.refs.blogPostText.value
+    let blogPostTitle = this.refs.titleInput.value
   },
 
   render () {
@@ -47,6 +53,7 @@ export default React.createClass({
             <input className="userNameInput" type="text" name="userName" value={ this.state.userNameInput } onChange={ this.updateUserNameInput } placeholder="Enter User Name"/>
             <input className="postDateInput" type="date" name="postDate" value={ this.state.dateOfPost } onChange={ this.updateDateOfPost }/>
             <input className="imageUrlInput" type="url" name="imageLink" value={ this.state.imageUrlInput } onChange={ this.updateImageUrlInput } placeholder="Enter Image URL"/>
+            <input className="titleInput" type="text" name="title" value={ this.state.titleInput } onChange={ this.updateTitleInput } placeholder="Enter Post Title Here"/>
             <textarea className="blogTextInput"type="text" name="" value={ this.state.blogTextInput } onChange={ this.updateBlogTextInput } placeholder="Enter blog post here"></textarea>
             <input className="submitPost" type="submit" name="" value="Submit Post" onClick={ this.submitButtonClick }/>
           </form>

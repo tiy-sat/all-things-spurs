@@ -1,6 +1,10 @@
 import React from 'react';
 
 export default React.createClass({
+  removeHide(e){
+    this.refs.unhide.removeClass("hide")
+  },
+
   render (){
     return (
       <article className="blog">
@@ -10,16 +14,18 @@ export default React.createClass({
           <h2 className="userName">{this.props.userNameInput}</h2>
           <h3 className="postDate">{this.props.dateOfPost}</h3>
         </div>
-        <div className="bottom">
+        <div className="bottom hide" ref="unhide">
+          <div className="spurAndButtons">
           <img src="http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/spurs/Schad/img/PostgameTeams/SAS.png"
           alt="spur"
           className="lilspur"/>
-        <button className="clickhere_button"> Click here to read more... </button>
+        <button className="clickhere_button" onClick={this.removeHide}> Click here to read more... </button>
           <img src="http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/spurs/Schad/img/PostgameTeams/SAS.png"
           alt="spur"
           className="lilspur"/>
         </div>
         <p className="blogText">{this.props.blogTextInput}</p>
+        </div>
       </article>
     )
   }
