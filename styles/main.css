@@ -122,6 +122,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
+  text-align: center;
   width: 500px;
 }
 .postDateInput {
@@ -132,6 +133,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
+  text-align: center;
   width: 500px;
   color: #008080;
 }
@@ -143,7 +145,14 @@
 }
 
 .postTitle {
+  font-family: Helvetica;
   color: #008080;
+  display: block;
+  height: 50px;
+  font-size: 30px;
+  font-style: italic;
+  text-decoration: underline;
+  width: auto;
 }
 
 
@@ -156,6 +165,7 @@
   margin-right: auto;
   margin-bottom: 20px;
   width: 500px;
+  text-align: center;
 }
 .blogTextInput {
   border: solid 1px grey;
@@ -179,4 +189,30 @@
   margin-right: auto;
   width: 500px;
   -webkit-appearance: none;
+}
+.accordion_img {
+  height: 500px;
+  width: 900px;
+}
+.top{
+  text-align: center;
+}
+.lilspur{
+  display: inline-block;
+  height: 75px;
+  width: 75px;
+  vertical-align: bottom;
+}
+.bottom{
+  margin-left: 33%;
+}
+.clickhere_button{
+  border-radius: 25px;
+  display: inline-block;
+  height: 60px;
+  width: 300px;
+}
+.blogText {
+  font-family: Helvetica;
+  font-size: 18px;
 }
