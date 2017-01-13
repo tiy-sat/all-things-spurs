@@ -3,27 +3,27 @@ import React from 'react';
 export default React.createClass({
   getInitialState: function() {
     return {
-      userNameInput: '',
-      dateOfPost: '',
-      imageUrlInput: '',
-      blogTextInput: '',
-      blogTitleInput: ''
+      name: '',
+      date: '',
+      image: '',
+      text: '',
+      title: ''
     };
   },
 
   updateUserNameInput (e){
     this.setState({
-      userNameInput: e.target.value
+      name: e.target.value
     });
   },
   updateDateOfPost (e){
     this.setState({
-      dateOfPost: e.target.value
+      date: e.target.value
     });
   },
   updateImageUrlInput (e){
     this.setState({
-      imageUrlInput: e.target.value
+      image: e.target.value
     });
   },
   handleContentChange: function(e) {
@@ -31,12 +31,12 @@ export default React.createClass({
   },
   updateBlogTextInput (e){
     this.setState({
-      blogTextInput: e.target.value
+      text: e.target.value
     });
   },
   updateTitleInput (e){
     this.setState({
-      blogTitleInput: e.target.value
+      title: e.target.value
     });
   },
 
@@ -59,27 +59,27 @@ export default React.createClass({
                    onChange={ this.updateUserNameInput }
                    placeholder="Enter User Name"
                    type="text"
-                   value={ this.state.userNameInput }/>
+                   value={ this.state.name }/>
             <input className="postDateInput"
                    name="postDate"
                    onChange={ this.updateDateOfPost }
                    type="date"
-                   value={ this.state.dateOfPost }/>
+                   value={ this.state.date }/>
             <input className="imageUrlInput"
                    name="imageLink"
                    onChange={ this.updateImageUrlInput }
                    placeholder="Enter Image URL"
                    type="url"
-                   value={ this.state.imageUrlInput }/>
+                   value={ this.state.image }/>
             <input className="titleInput"
                    name="title"
                    onChange={ this.updateTitleInput }
                    placeholder="Enter Post Title Here"
-                   value={ this.state.blogTitleInput }/>
+                   value={ this.state.title }/>
             <textarea className="blogTextInput"
                       type="text"
                       name=""
-                      value={ this.state.blogTextInput }
+                      value={ this.state.text }
                       onChange={ this.updateBlogTextInput }
                       placeholder="Enter blog post here">
             </textarea>

@@ -36,12 +36,12 @@ export default React.createClass({
   },
   setMainState (formData){
     var currentData = this.state.posts
-    currentData.push(formData)
+    currentData.unshift(formData)
     this.setState({posts:currentData})
-    console.log(this.state)
   },
 
   render () {
+    console.log(this.state.posts);
     return (
       <div>
         <Header/>
@@ -50,10 +50,10 @@ export default React.createClass({
         <PageBreak/>
         <div>
           {
-            this.state.posts.map((posts, i)=>{
+            this.state.posts.map((post, i)=>{
               return <BlogPost key={i}
-                blogTextInput={this.state.posts[i].text} titleInput={this.state.posts[i].title} userNameInput={this.state.posts[i].name} dateOfPost={this.state.posts[i].date} imageUrlInput={this.state.posts[i].image}
-                postData={this.state.posts[i]}/>
+                blogTextInput={post.text} titleInput={post.title} userNameInput={post.name} dateOfPost={post.date} imageUrlInput={post.image}
+                postData={post}/>
             })
           }
         </div>
