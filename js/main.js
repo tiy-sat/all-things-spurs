@@ -34,13 +34,19 @@ export default React.createClass({
       }]
     }
   },
+  setMainState (formData){
+    var currentData = this.state.posts
+    currentData.push(formData)
+    this.setState({posts:currentData})
+    console.log(this.state)
+  },
 
   render () {
     return (
       <div>
         <Header/>
         <Engagementvids/>
-        <Form/>
+        <Form setMainState={this.setMainState}/>
         <PageBreak/>
         <BlogPost
           blogTextInput={this.state.posts[0].text} titleInput={this.state.posts[0].title} userNameInput={this.state.posts[0].name} dateOfPost={this.state.posts[0].date} imageUrlInput={this.state.posts[0].image}

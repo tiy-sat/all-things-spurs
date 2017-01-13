@@ -42,6 +42,9 @@ export default React.createClass({
 
   submitButtonClick (e){
     e.preventDefault()
+    this.props.setMainState(
+       this.state
+    )
   },
 
   render () {
