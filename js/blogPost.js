@@ -29,6 +29,7 @@ export default React.createClass({
           <h2 className="userName">{this.props.userNameInput}</h2>
           <h3 className="postDate">{this.props.dateOfPost}</h3>
         </div>
+          <p className="blogText hide">{this.props.blogTextInput}</p>
           <div className="spurAndButtons">
             <img src="http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/spurs/Schad/img/PostgameTeams/SAS.png"
             alt="spur"
@@ -38,7 +39,6 @@ export default React.createClass({
             alt="spur"
             className="lilspur"/>
           </div>
-          <p className="blogText hide">{this.props.blogTextInput}</p>
         </div>
       </article>
       </div>
