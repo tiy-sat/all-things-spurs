@@ -3,12 +3,11 @@
 }
 
 .video_player_container{
-  background-color: black;
-  /*margin-top: -50px;*/
+  background: rgb(255, 0, 0, 0.4);
 }
 
 .wholePage {
-  background-color: black;
+  /*background-image: url(https://c2.staticflickr.com/6/5189/5653446315_d8e98c55eb_b.jpg);*/
 }
 
 .featured_articles {
@@ -39,9 +38,6 @@ i {
   text-align: center;
 }
 
-/*.header {
-  height: 300px;
-}*/
 .google {
   color: rgb(221, 75, 57);
 }
@@ -73,7 +69,6 @@ i {
   height: 250px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: -10px;
 }
 
 .logo {
@@ -162,7 +157,7 @@ i {
   margin: 0px;
 }
 .blogPostForm {
-  /*background-color: lightgrey;*/
+  background-color: lightgrey;
   width: 75%;
   margin-left: auto;
   margin-right: auto;
