@@ -143,10 +143,14 @@ i {
   margin: 0px;
 }
 .blogPostForm {
+  background-color: lightgrey;
   width: 75%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  padding-top: 50px;
   text-align: center;
 }
 
@@ -240,7 +244,6 @@ i {
   border-radius: 4px;
   font-size: 16px;
   display: block;
-  margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
   width: 500px;
@@ -293,4 +296,11 @@ i {
 
 .hidden {
   display: none;
+}
+.formHeading {
+  color: #008080;
+  font-size: 36px;
+  font-family: Helvetica;
+  margin-top: 0px;
+  margin-bottom: 20px;
 }
