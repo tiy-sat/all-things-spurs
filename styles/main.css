@@ -26,6 +26,9 @@ i {
   text-align: center;
 }
 
+/*.header {
+  height: 300px;
+}*/
 .google {
   color: rgb(221, 75, 57);
 }
@@ -54,17 +57,17 @@ i {
 .div_logo{
   background-color: black;
   display: block;
-  height: 200px;
+  height: 250px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .logo {
   display: inline-block;
-  height: 200px;
-  margin-left: 22%;
+  height: 250px;
+  margin-left: 15%;
   margin-right: auto;
-  width: 350px;
+  width: 600px;
 
 }
 
@@ -85,14 +88,15 @@ i {
 }
 
 .spur1{
-  height: 175px;
-  margin-bottom: 10px;
+  height: 150px;
+  margin-bottom: 40px;
 }
 
 .spur2{
   float: right;
-  height: 175px;
-  margin-top: 10px;
+  height: 150px;
+  margin-top: 55px;
+  padding-left: 70px;
 }
 
 .video_section {
