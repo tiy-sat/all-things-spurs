@@ -15,8 +15,8 @@ export default React.createClass({
               <img src="http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/spurs/Schad/img/PostgameTeams/SAS.png"
               alt="spur"
               className="lilspur"/>
-            <button className="clickhere_button"> Click here to read more... </button>
-              <img> src="http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/spurs/Schad/img/PostgameTeams/SAS.png"
+              <button className="clickhere_button"> Click here to read more... </button>
+              <img src="http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/spurs/Schad/img/PostgameTeams/SAS.png"
               alt="spur"
               className="lilspur"/>
             </div>
@@ -47,7 +47,7 @@ export default React.createClass({
             <button className="clickhere_button"> Click here to read more... </button>
               <img src="http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/spurs/Schad/img/PostgameTeams/SAS.png"
               alt="spur"
-              className="lilspur">
+              className="lilspur"/>
             </div>
 
               <p className="blogpost">
