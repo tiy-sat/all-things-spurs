@@ -6,7 +6,7 @@ export default React.createClass({
     return (
       <div className="modalPosition">
         <div className={this.props.isModalOpen() ? "visible" : "hidden"}>
-          <div className="top">
+          <div className="modalBackground">
             <h2 className="postTitle">{this.props.postData.title}</h2>
             <img className="accordion_img" src={this.props.postData.image}/>
             <h2 className="userName">{this.props.postData.name}</h2>

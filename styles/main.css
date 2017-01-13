@@ -308,6 +308,7 @@ i {
   margin-bottom: 20px;
 }
 .modalPosition {
+  display: inline-block;
   background-color: white;
   position: absolute;
   top: 50%;
@@ -315,4 +316,9 @@ i {
   transform: translate(-50%, -50%);
   width: 80%;
   max-height: 100%;
+  vertical-align: top;
+}
+.modalBackground {
+  background-color: white;
+  text-align: center;
 }

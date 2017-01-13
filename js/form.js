@@ -6,7 +6,8 @@ export default React.createClass({
       userNameInput: '',
       dateOfPost: '',
       imageUrlInput: '',
-      blogTextInput: ''
+      blogTextInput: '',
+      blogTitleInput: ''
     };
   },
 
@@ -35,7 +36,7 @@ export default React.createClass({
   },
   updateTitleInput (e){
     this.setState({
-      blogTextInput: e.target.value
+      blogTitleInput: e.target.value
     });
   },
 
@@ -71,7 +72,7 @@ export default React.createClass({
                    name="title"
                    onChange={ this.updateTitleInput }
                    placeholder="Enter Post Title Here"
-                   value={ this.state.titleInput }/>
+                   value={ this.state.blogTitleInput }/>
             <textarea className="blogTextInput"
                       type="text"
                       name=""
