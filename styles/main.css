@@ -2,6 +2,13 @@
   box-sizing: border-box;
 }
 
+.featured_post {
+  text-align: center;
+  background: #008080;
+  color: pink;
+  border: solid 1px;
+}
+
 .video_player_container{
   background: rgb(255, 0, 0, 0.4);
 }
@@ -107,6 +114,7 @@ i {
   float: right;
   height: 150px;
   margin-top: 55px;
+  padding-left: 50px;
   padding-right: 50px;
 }
 
