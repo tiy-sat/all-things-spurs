@@ -139,6 +139,7 @@ i {
   text-align: center;
 }
 .body {
+  position: relative;
   background: #E6E6E6;
   margin: 0px;
 }
@@ -304,4 +305,13 @@ i {
   font-family: Helvetica;
   margin-top: 0px;
   margin-bottom: 20px;
+}
+.modalPosition {
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-height: 100%;
 }
