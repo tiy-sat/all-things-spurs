@@ -2,7 +2,7 @@ import React from 'react'
 import TestUtils from 'react-addons-test-utils'
 import Accordion from '../js/accordion'
 
-describe("accordion", () => {
+describe("textbox", () => {
   let textboxComponent = {}
 
   beforeEach(() =>{
@@ -11,8 +11,8 @@ describe("accordion", () => {
   it("Should have a text area", () => {
     const textboxElement = TestUtils.findRenderedDOMComponentWithClass(
       textboxComponent,
-      "title"
+      "textbox"
     )
-    expect(textboxElement).tobedefined(" San Antonio vs. Charlotte: Spurs to 102-85 victory over Hornets ")
+    expect(textboxElement).toBeDefined()
   })
 })
