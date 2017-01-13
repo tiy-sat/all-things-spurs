@@ -49,6 +49,7 @@ export default React.createClass({
           <form action="index.html"
                 className="blogPostForm"
                 method="post">
+            <h2 className= "formHeading">Thoughts on the video? Post it here!</h2>
             <input className="userNameInput"
                    name="userName"
                    onChange={ this.updateUserNameInput }
