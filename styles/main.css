@@ -7,7 +7,8 @@
 }
 
 .wholePage {
-  /*background-image: url(https://c2.staticflickr.com/6/5189/5653446315_d8e98c55eb_b.jpg);*/
+  /*background: yellow;*/
+  /*background-image: url(https://c1.staticflickr.com/7/6129/5964518416_c1d9bba2fd_b.jpg);*/
 }
 
 .featured_articles {
@@ -110,7 +111,7 @@ i {
 }
 
 .video_section {
-  background: #E6E6E6;
+  background-color: transparent;
   font-size: 12px;
   margin-top: 10px;
 }
