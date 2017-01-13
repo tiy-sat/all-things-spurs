@@ -65,9 +65,9 @@ i {
 .logo {
   display: inline-block;
   height: 250px;
-  margin-left: 15%;
+  margin-left: 100px;
   margin-right: auto;
-  width: 600px;
+  width: 650px;
 
 }
 
@@ -90,13 +90,15 @@ i {
 .spur1{
   height: 150px;
   margin-bottom: 40px;
+  padding-left: 75px;
 }
 
 .spur2{
   float: right;
   height: 150px;
   margin-top: 55px;
-  padding-left: 70px;
+  padding-left: 50px;
+  padding-right: 75px;
 }
 
 .video_section {
