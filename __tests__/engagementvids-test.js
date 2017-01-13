@@ -11,7 +11,7 @@ describe("engagementvids", () => {
   it("Should have a video", () => {
     const video_sectionElement = TestUtils.findRenderedDOMComponentWithClass(
       video_sectionComponent,
-      "engagementvids"
+      "video_section"
     )
     expect(video_sectionElement).toBeDefined()
   })
