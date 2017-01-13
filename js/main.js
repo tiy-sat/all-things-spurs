@@ -48,15 +48,15 @@ export default React.createClass({
         <Engagementvids/>
         <Form setMainState={this.setMainState}/>
         <PageBreak/>
-        <BlogPost
-          blogTextInput={this.state.posts[0].text} titleInput={this.state.posts[0].title} userNameInput={this.state.posts[0].name} dateOfPost={this.state.posts[0].date} imageUrlInput={this.state.posts[0].image}
-          postData={this.state.posts[0]}/>
-        <BlogPost
-          blogTextInput={this.state.posts[1].text} titleInput={this.state.posts[1].title} userNameInput={this.state.posts[1].name} dateOfPost={this.state.posts[1].date} imageUrlInput={this.state.posts[1].image}
-          postData={this.state.posts[1]}/>
-        <BlogPost
-          blogTextInput={this.state.posts[2].text} titleInput={this.state.posts[2].title} userNameInput={this.state.posts[2].name} dateOfPost={this.state.posts[2].date} imageUrlInput={this.state.posts[2].image}
-          postData={this.state.posts[2]}/>
+        <div>
+          {
+            this.state.posts.map((posts, i)=>{
+              return <BlogPost key={i}
+                blogTextInput={this.state.posts[i].text} titleInput={this.state.posts[i].title} userNameInput={this.state.posts[i].name} dateOfPost={this.state.posts[i].date} imageUrlInput={this.state.posts[i].image}
+                postData={this.state.posts[i]}/>
+            })
+          }
+        </div>
         <Footer/>
       </div>
     )
