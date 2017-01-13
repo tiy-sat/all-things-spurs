@@ -6,6 +6,7 @@ import Header from './header'
 import Form from './form'
 import Engagementvids from './engagementvids'
 import BlogPost from './blogPost'
+import PageBreak from './pageBreak'
 
 export default React.createClass({
   getInitialState(){
@@ -40,6 +41,7 @@ export default React.createClass({
         <Header/>
         <Engagementvids/>
         <Form/>
+        <PageBreak/>
         <BlogPost
           blogTextInput={this.state.posts[0].text} titleInput={this.state.posts[0].title} userNameInput={this.state.posts[0].name} dateOfPost={this.state.posts[0].date} imageUrlInput={this.state.posts[0].image}
           postData={this.state.posts[0]}/>

@@ -5,6 +5,7 @@ export default React.createClass({
   render () {
     return (
       <section className="textbox">
+        <div> <p className="featured_post"> FEATURED POSTS </p> </div>
           <article className="blog">
             <div className="top">
               <h1 className="title"> San Antonio vs. Charlotte: Spurs to 102-85 victory over Hornets </h1>
