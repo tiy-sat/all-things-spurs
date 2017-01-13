@@ -2,6 +2,14 @@
   box-sizing: border-box;
 }
 
+.video_player_container{
+  background: rgb(255, 0, 0, 0.4);
+}
+
+.wholePage {
+  /*background-image: url(https://c2.staticflickr.com/6/5189/5653446315_d8e98c55eb_b.jpg);*/
+}
+
 .featured_articles {
   color: lightgrey;
 }
@@ -30,9 +38,6 @@ i {
   text-align: center;
 }
 
-/*.header {
-  height: 300px;
-}*/
 .google {
   color: rgb(221, 75, 57);
 }
