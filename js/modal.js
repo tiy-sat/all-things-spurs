@@ -12,7 +12,7 @@ export default React.createClass({
             <h2 className="userName">{this.props.postData.name}</h2>
             <h3 className="postDate">{this.props.postData.date}</h3>
             <p className="blogText">{this.props.postData.text}</p>
-        <p><button className="clickhere_button" onClick={() => this.props.closeModal()}>Close</button></p>
+            <p><button className="clickhere_button" onClick={() => this.props.closeModal()}>Close</button></p>
           </div>
         </div>
       </div>
