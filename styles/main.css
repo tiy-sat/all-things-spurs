@@ -11,11 +11,9 @@
 
 .video_player_container{
   background: rgb(255, 0, 0, 0.4);
-}
-
-.wholePage {
-  /*background: yellow;*/
-  /*background-image: url(https://c1.staticflickr.com/7/6129/5964518416_c1d9bba2fd_b.jpg);*/
+  margin-left: auto;
+  margin-right: auto;
+  width: 560px;
 }
 
 .featured_articles {
@@ -74,23 +72,21 @@ i {
 .div_logo{
   background-color: black;
   display: block;
-  height: 250px;
+  height: 20vw;
   margin-left: auto;
   margin-right: auto;
 }
 
 .logo {
-  display: inline-block;
-  height: 250px;
-  margin-left: 100px;
+  height: 20vw;
+  margin-left: 10vw;
   margin-right: auto;
-  width: 650px;
-
+  width: 40vw;
 }
 
 .div_signin{
   display: inline-block;
-  float: right;
+  margin-top: 1.5%;
   vertical-align: top;
 }
 
@@ -105,17 +101,19 @@ i {
 }
 
 .spur1{
-  height: 150px;
-  margin-bottom: 40px;
-  padding-left: 75px;
+  height: 12vw;
+  margin-top: 4vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  float: left;
 }
 
 .spur2{
+  height: 12vw;
+  margin-top: 4vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
   float: right;
-  height: 150px;
-  margin-top: 55px;
-  padding-left: 50px;
-  padding-right: 50px;
 }
 
 .video_section {
@@ -142,15 +140,30 @@ i {
 .site_footer {
   background: #cccccc;
 }
-
+.NBA_game_highlights {
+  margin: 0;
+  }
 .menu {
-  list-style: none;
-  display: inline-block;
-  margin-left: 87px;
+  margin-top: 0;
+  margin-left: 8%;
+  padding-left: 0;
+  padding-top: 1.5%;
 }
 
+.footerLink {
+  list-style: none;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.footer_menu_container {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
 .copyright_text {
   text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 0.75%;
 }
 
 .link {

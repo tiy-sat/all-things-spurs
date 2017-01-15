@@ -5,37 +5,35 @@ export default React.createClass({
   render () {
     return (
       <footer className="site_footer">
-        <div className="footer_content_container">
           <div className="footer_menu_container">
             <ul className="menu">
-              <li className="menu">
+              <li className="footerLink">
                 <a className="link"
                    href="" > About Us
                  </a>
               </li>
-              <li className="menu">
+              <li className="footerLink">
                 <a className="link"
                    href=""> Write for Us
                 </a>
               </li>
-              <li className="menu">
+              <li className="footerLink">
                 <a className="link"
                    href=""> Advertise with Us
                 </a>
               </li>
-              <li className="menu">
+              <li className="footerLink">
                 <a className="link"
                    href=""> Contact Us
                 </a>
               </li>
-              <li className="menu">
+              <li className="footerLink">
                 <a className="link"
                    href=""> Privacy Policy
                 </a>
               </li>
             </ul>
           </div>
-        </div>
         <div className="socialMedia">
           <ul className="socialMediaFooter">
             <li className="socialMediaList"><a href="https://www.twitter.com/spurs" className="twitter"><i className="fa fa-twitter icons" aria-hidden="true"></i></a></li>
