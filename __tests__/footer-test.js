@@ -18,13 +18,12 @@ describe("Footer", () => {
     expect(footerElement).toBeDefined()
   })
 
-  it("Should have the footer container", () => {
-    const footerContentContainerElement = TestUtils.findRenderedDOMComponentWithClass(
+  it("Should have an about us link", ()=> {
+    const allFooterLinks = TestUtils.scryRenderedDOMComponentsWithClass(
       footerComponent,
-      "footer_content_container"
+      "link"
     )
 
-    expect(footerContentContainerElement).toBeDefined()
-  })
-
+    expect(allFooterLinks[0].innerHTML).toContain("About Us")
+  });
 })
