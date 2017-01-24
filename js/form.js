@@ -10,7 +10,6 @@ export default React.createClass({
       title: ''
     };
   },
-
   updateUserNameInput (e){
     this.setState({
       name: e.target.value
@@ -39,14 +38,12 @@ export default React.createClass({
       title: e.target.value
     });
   },
-
   submitButtonClick (e){
     e.preventDefault()
     this.props.setMainState(
        this.state
     )
   },
-
   render () {
     return (
         <div>
