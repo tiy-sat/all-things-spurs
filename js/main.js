@@ -39,9 +39,7 @@ export default React.createClass({
     currentData.unshift(formData)
     this.setState({posts:currentData})
   },
-
   render () {
-    console.log(this.state.posts);
     return (
       <div>
         <Header/>

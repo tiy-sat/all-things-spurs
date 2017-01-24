@@ -1,7 +1,6 @@
 import React from 'react';
 
 export default React.createClass({
-
   render () {
     return (
       <footer className="site_footer">
